@@ -21,4 +21,8 @@ public class Arrays {
                 System.out.println("Array of different length");
         }
     }
+
+abstract class Sample {
+    abstract void display();
+}    
 }
