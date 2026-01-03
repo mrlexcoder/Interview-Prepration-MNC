@@ -13,5 +13,12 @@ public class Arrays {
         for(int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
+        switch (arr.length) {
+            case 5:
+                System.out.println("Array of length 5");
+                break;
+            default:
+                System.out.println("Array of different length");
+        }
     }
 }
